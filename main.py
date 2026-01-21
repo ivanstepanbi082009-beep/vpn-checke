@@ -185,7 +185,7 @@ def save_chunked(keys_list, folder, base_name):
             
         created_files.append(fname)
         
-    return created_files
+GITHUB_USER_REPO = "aleksandro1337/vpn-checke"
 
 if __name__ == "__main__":
     print(f"=== CHECKER v10.0 (TEXT FILES FIXED) ===")
@@ -262,6 +262,7 @@ if __name__ == "__main__":
         f.write("\n".join(subs_lines))
 
     print("=== SUCCESS: LISTS GENERATED ===")
+
 
 
 
