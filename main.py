@@ -31,7 +31,7 @@ CHUNK_LIMIT = 1000
 MAX_KEYS_TO_CHECK = 15000 
 
 HISTORY_FILE = os.path.join(BASE_DIR, "history.json")
-MY_CHANNEL = "@vlesstrojan" 
+MY_CHANNEL = "@keys_checked" 
 
 URLS_RU = [
     "https://raw.githubusercontent.com/zieng2/wl/main/vless.txt",
@@ -45,7 +45,7 @@ URLS_RU = [
 
 # Ссылка на твою папку NEW
 URLS_MY = [
-    "https://raw.githubusercontent.com/kort0881/vpn-vless-configs-russia/refs/heads/main/githubmirror/new/all_new.txt"
+    "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-CIDR-RU-checked.txt"
 ]
 
 EURO_CODES = {"NL", "DE", "FI", "GB", "FR", "SE", "PL", "CZ", "AT", "CH", "IT", "ES", "NO", "DK", "BE", "IE", "LU", "EE", "LV", "LT"}
@@ -185,7 +185,7 @@ def save_chunked(keys_list, folder, base_name):
             
         created_files.append(fname)
         
-GITHUB_USER_REPO = "aleksandro1337/vpn-checke"
+GITHUB_USER_REPO = "ivanstepanbi082009-beep/vpn-checke"
 
 if __name__ == "__main__":
     print(f"=== CHECKER v10.0 (TEXT FILES FIXED) ===")
@@ -262,6 +262,7 @@ if __name__ == "__main__":
         f.write("\n".join(subs_lines))
 
     print("=== SUCCESS: LISTS GENERATED ===")
+
 
 
 
